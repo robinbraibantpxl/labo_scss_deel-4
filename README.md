@@ -1,1 +1,1 @@
-# Startbestand Labo Sass Deel 4 - De footer
+# Oplossing Labo Sass Deel 4 - De footer
