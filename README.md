@@ -1,1 +1,1 @@
-# labo_scss_deel-4
+# Startbestand Labo Sass Deel 4 - De footer
