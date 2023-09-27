@@ -79,3 +79,44 @@
         background-color: $color-white;
     }
 }
+
+.footer {
+    @include flexLayout();
+    flex-direction: column;
+    padding: 70px 0;
+
+    &-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .social-media {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        margin-bottom: 70px;
+
+        &-item {
+            list-style: none;
+        }
+
+        &-link {
+            text-decoration: none;
+            font-size: 50px;
+            color: $color-secondary;
+            transition: color .7s;
+            
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+
+    &-copyright-paragraph {
+        @include textStyles(capitalize);
+        font-family: $font-josefinSans;
+        font-size: 18px;
+        color: $color-secondary;
+    }
+}
